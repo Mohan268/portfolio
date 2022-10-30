@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    position:absolute;
+    top:100px;
+    left:7%;
+    right:7%;
+}
+.img-logo{
+    position:absolute;
+    left:7%;
+    top:10%;
+    bottom:5.71%;
+    width:67.46px;
+    height:23px;
+}
+nav{
+    justify-content: flex-end;
+    position:absolute;
+    right:7%;
+    top:10%;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0px 33px;
+}
+nav ul li:nth-child(4){
+    margin-right:-33px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family:'DM sans';
+    color:#181717;
+    letter-spacing: -0.03em;
+    line-height:120%;
+    font-weight:500;
+}
+.list li a:hover{
+     font-size:23px;
+     color:#606060;
+}
+.container-1{
+    position:absolute;
+    top:200px;
+    left:7%;
+    display:flex;
+    flex-direction:column;
+}
+.sub-body1{
+    display:flex;
+    flex-direction:row;
+}
+.sub-body1 .name p{
+    font-family:'DM sans';
+    font-size:60px;
+    width:360px;
+    height:129px;
+    font-weight:500;
+    letter-spacing: -0.03em;
+    color:#181717;
+}
+.sub-body1 .intro p{
+    position:absolute;
+    top:68px;
+    left:516px;
+    font-size: 32px;
+    font-family:'DM sans';
+    font-weight:400;
+    width:630px;
+    height:111px;
+    color:#606060;
+}
+.arrow{
+    position:absolute;
+    top:220px;
+    font-size:48px;
+}
+
+.sec-1{
+    margin-top:210px;
+    display:flex;
+    flex-direction:row;
+}
+.sec-11{
+    margin-right:160px;
+}
+.sec-11 .sec-11-head{
+    font-size:18px;
+    font-family:'DM Sans', sans-serif;
+    color:#181717;
+    font-weight:500;
+}
+.sec-11 .sec-111{
+    margin-top:38px;
+    width:356px;
+    height:74px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+
+.sec-11 .sec-112{
+    margin-top:38px;
+    width:415px;
+    height:68px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:400;
+    color:#606060; 
+    margin-bottom:170px;
+}
+.sec-11 .sec-113{
+    width:328px;
+    height:20px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+.sec-11 .sec-113 a{
+    text-decoration:underline;
+    color:#181717;
+}
+
+.sec-12-img img{
+    width:640px;
+    height:420px;
+}
+.line1{
+    background:black;
+    height:3px;
+    margin-top:80px;
+}
+.sec-2{
+    margin-top:94px;
+    display:flex;
+    flex-direction:row;
+}
+.sec-21{
+    margin-right:210px;
+}
+.sec-21 .sec-21-head{
+    font-size:18px;
+    font-family:'DM Sans', sans-serif;
+    color:#181717;
+    font-weight:500;
+    margin-top:16px;
+}
+.sec-21 .sec-211{
+    margin-top:38px;
+    width:356px;
+    height:74px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+.sec-21 .sec-212{
+    width:328px;
+    height:20px;
+    margin-top:262px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+.sec-21 .sec-212 a{
+    text-decoration:underline;
+    color:#181717;
+}
+
+.sec-22-img img{
+    width:640px;
+    height:420px;
+}
+.line2{
+    background:black;
+    height:3px;
+    margin-top:80px;
+}
+.sec-3{
+    margin-top:94px;
+    display:flex;
+    flex-direction:row;
+}
+.sec-31{
+    margin-right:210px;
+}
+.sec-31 .sec-31-head{
+    font-size:18px;
+    font-family:'DM Sans', sans-serif;
+    color:#181717;
+    font-weight:500;
+    margin-top:36px;
+}
+.sec-31 .sec-311{
+    margin-top:38px;
+    width:356px;
+    height:74px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+.sec-31 .sec-312{
+    margin-top:264px;
+    width:328px;
+    height:20px;
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+    font-weight:500; 
+}
+.sec-31 .sec-312 a{
+    text-decoration:underline;
+    color:#606060;
+}
+
+.sec-32-img img{
+    width:640px;
+    height:440px;
+}
+.line2{
+    background:black;
+    height:3px;
+    margin-top:80px;
+}
+.foot{
+    margin-top: 116px;
+    display:flex;
+    margin-bottom:86px;
+}
+.foot .foot-1{
+    font-family:'DM sans';
+    font-weight:500;
+    font-size:21px;
+    color:#2429AF;
+}
+.foot .foot-list{
+    display:flex;
+    margin-left:45%;
+}
+.foot-list li{
+    justify-content:center;
+    list-style-type: none;
+    margin:0px 32px;
+    font-family:'DM sans';
+    font-weight:500;
+    font-size:21px;
+    color: #181717;
+}
